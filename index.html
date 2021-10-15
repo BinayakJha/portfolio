@@ -324,7 +324,7 @@
             </div>
             <div class="row">
                 <div class="contact-form">
-                    <form name="contact" data-netlify="true" method="POST">
+                    <form name="contact" data-netlify="true" method="POST"  data-netlify-recaptcha="true">
                         <div class="row">
                             <div class="input-group">
                                 <input type="text" placeholder="Your Name" class="input-control" name="name" required>
@@ -337,6 +337,9 @@
                             </div>
                             <div class="input-group">
                                <textarea placeholder="Your Message" class="input-control" name="message"></textarea>
+                            </div>
+                            <div class="input-group">
+                                <div data-netlify-recaptcha="true"></div>
                             </div>
                             <div class="submit-btn">
                                 <button type="submit" class="btn">Send Message</button>
