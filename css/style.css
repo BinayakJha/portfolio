@@ -341,7 +341,7 @@ button {
 }
 
 .home-img .img-box {
-	max-width: 360px;
+	max-width: 420px;
 	background-color: var(--white-alpha-25);
 	border-radius: 12px;
 	border: 9px solid var(--white-alpha-25);
