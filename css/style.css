@@ -229,8 +229,8 @@ section.fade-out{
 	width:90px;
 	background-color: var(--main-color);
 	opacity: 0.4;
-	left: 30%;
-	top:50%;
+	left: 40%;
+	top:70%;
 	animation: bounce 5s ease-in-out infinite;
 }
 .bg-circles .circle-3{
