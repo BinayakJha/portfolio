@@ -183,6 +183,74 @@ section.fade-out{
 		opacity: 0;
 	}
 }
+@keyframes zoomInOut{
+
+	0%,100%{
+		transform: scale(0.5);
+	}
+	50%{
+		transform: scale(1);
+	}
+}
+@keyframes bounce{
+	0%,100%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-20px);
+	}
+}
+
+/* Circles */
+.bg-circles{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	max-width: 1200px;
+	width: calc(100% - 30px);
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bg-circles div{
+	position: absolute;
+	border-radius: 50%;
+}
+.bg-circles .circle-1{
+	height: 60px;
+	width: 60px;
+	background-color: var(--blue);
+	left: 5%;
+	top: 10%;
+	opacity: 0.5;
+	animation: zoomInOut 8s linear infinite;
+}
+.bg-circles .circle-2{
+	height:90px;
+	width:90px;
+	background-color: var(--main-color);
+	opacity: 0.4;
+	left: 30%;
+	top:50%;
+	animation: bounce 5s ease-in-out infinite;
+}
+.bg-circles .circle-3{
+	height: 80px;
+	width: 80px;
+	background-color: var(--white);
+	top: 1%;
+	right: -35px;
+	opacity: 0.7;
+	animation: zoomInOut 8s linear infinite;
+}
+.bg-circles .circle-4{
+	height: 50px;
+	width: 50px;
+	background-color: #ffc65c;
+	top: 80%;
+	left: -25px;
+	opacity: 1;
+	animation: bounce 8s linear infinite;
+}
 /* -------------------------------------------------- */
 /* Buttons */
 /* -------------------------------------------------- */
