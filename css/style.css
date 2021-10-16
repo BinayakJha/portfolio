@@ -135,7 +135,7 @@ section {
 	background-color: var(--white-alpha-25);
 	border: 1px solid var(--white-alpha-40);
 	min-height: calc(100vh - 100px);
-	border-radius: 12px;
+	border-radius: 45px;
 	backdrop-filter: var(--backdrop-filter-blur);
 	display: none;
 }
@@ -224,6 +224,16 @@ section.fade-out{
 		 transform:rotate(180deg);   
 	  } 
 }
+
+/* spin */
+@keyframes spin{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
 /* Circles */
 .bg-circles{
 	position: fixed;
@@ -250,7 +260,8 @@ section.fade-out{
 .bg-circles .circle-2{
 	height:90px;
 	width:90px;
-	background-color: var(--main-color);
+	/* background-color: var(--main-color); */
+	border: 4px solid var(--main-color);
 	opacity: 0.4;
 	left: 40%;
 	top:70%;
@@ -273,6 +284,15 @@ section.fade-out{
 	left: -25px;
 	opacity: 1;
 	animation: bounce 8s linear infinite;
+}
+.bg-circles .effect-1{
+	width: 40px;
+	height: 40px;
+	border: 4px solid #8a49ff;
+	right: -1.5%;
+	bottom: 10%;
+	animation: spin 10s linear infinite;
+	border-radius: 12px;
 }
 /* -------------------------------------------------- */
 /* Buttons */
@@ -325,6 +345,7 @@ button {
 .btn:hover {
 	color: #ffffff;
 }
+
 
 /* -------------------------------------------------- */
 /* Home */
