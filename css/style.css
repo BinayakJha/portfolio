@@ -116,6 +116,12 @@ img {
 	max-width: 100%;
 	vertical-align: middle;
 }
+.pp-thumbnail img{
+	max-width: 100%;
+	vertical-align: middle;
+	width: 100vw;
+	border-radius: 12px;
+}
 video{
 	max-width: 100%;
 	vertical-align: middle;
