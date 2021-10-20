@@ -1,4 +1,4 @@
 # my new portfolio 
 
 
-link: https://www.binayakjha.cf/
+link: https://binayakjha.com.np/
