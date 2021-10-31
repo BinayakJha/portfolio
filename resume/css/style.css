@@ -1,19 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-body{
+
+body {
 	margin: 0px;
 	padding: 0px;
-	background-image: linear-gradient(to right,
-	#efa2b4,
-	#aef1ee);
+	background-image: radial-gradient(circle at 1px 1px, black 1px, transparent 0);
+	background-size: 40px 40px;
+  	background-attachment: fixed;
 	height: 100vh;
 	font-family: "Poppins";
 
 }
-.clearfix{
+
+.clearfix {
 	clear: both;
 }
-.main{
-	height: 1020px;
+
+.main {
+	height: 1092px;
 	width: 800px;
 	background-color: white;
 	box-shadow: 5px 7px 15px 5px #b9b6b6;
@@ -21,82 +24,98 @@ body{
 
 }
 
-.top-section{
-	background-color:#e02f60;
+.top-section {
+	background-color: #e02f60;
 	text-align: center;
 	padding: 20px;
 }
-.profile{
+
+.profile {
 	width: 150px;
 	border-radius: 50%;
 }
-.p1{
+
+.p1 {
 	color: white;
 	font-size: 40px;
 	font-weight: bold;
 	margin: 0px;
 	margin-top: 10px;
 }
-.p1 span{
+
+.p1 span {
 	font-weight: 100;
 	color: white;
 }
-.p2{
+
+.p2 {
 	font-size: 20px;
 	color: white;
 	margin: 0px;
 	margin-top: 10px;
 }
-.col-div-4{
+
+.col-div-4 {
 	width: 35%;
 	float: left;
 
 }
-.col-div-8{
+
+.col-div-8 {
 	width: 62%;
 	float: left;
 }
-.line{
-  border-left: 1px solid #c7c7c7;
-  height: 680px;
-  width: 2%;
-  margin-top: 30px;
-  float:left;
+
+.line {
+	border-left: 1px solid #c7c7c7;
+	height: 680px;
+	width: 2%;
+	margin-top: 30px;
+	float: left;
 }
-.content-box{
+
+.content-box {
 	padding: 20px;
 }
-.head{
+
+.head {
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 600;
 }
-.p3{
+
+.p3 {
 	color: #7b7b7b;
 	margin-bottom: -5px;
 
 }
-.fa{
+
+.fa {
 	color: #151b29;
 }
-.skills{
+
+.skills {
 	margin-left: -20px;
-	    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
-.skills li{
+
+.skills li {
 	padding: 5px;
 }
-.skills li span{
+
+.skills li span {
 	color: #7b7b7b;
 }
-.p-4{
+
+.p-4 {
 	font-size: 14px;
 	color: #7b7b7b;
 }
-@media print{
-	.main{
+
+@media print {
+	.main {
 		-webkit-box-shadow: none;
-		-moz-box-shadow:    none;
-		box-shadow:         none; 
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 }
