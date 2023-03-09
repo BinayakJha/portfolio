@@ -77,6 +77,7 @@ body {
 	-webkit-tap-highlight-color: transparent;
 	padding: 5vh 15px;
 	font-family: "Poppins";
+	overflow-y: auto !important;
 }
 body.hide-scrolling{
 	overflow-y: hidden;
@@ -143,7 +144,6 @@ section {
 	min-height: calc(100vh - 100px);
 	border-radius: 45px;
 	backdrop-filter: var(--backdrop-filter-blur);
-	display: none;
 }
 section.active{
 	display: block;
@@ -249,6 +249,7 @@ section.fade-out{
 	width: calc(100% - 30px);
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: -1;
 }
 .bg-circles div{
 	position: absolute;
@@ -656,7 +657,6 @@ button {
 	border-radius: 12px;
 }
 .portfolio-item-details{
-	display: none;
 }
 
 /* portfolio popup */

@@ -1,0 +1,26 @@
+/* -------------------------------------------------- */
+/* Font import */
+/* -------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+*{
+  margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	background-image: linear-gradient(to right,
+    #efa2b4,
+    #aef1ee);
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-weight: 300;
+	color:#18293c;
+	line-height: 1.5;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+	padding: 5vh 15px;
+	font-family: "Poppins", sans-serif;
+}
