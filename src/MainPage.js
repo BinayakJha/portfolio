@@ -104,7 +104,7 @@ function MainPage() {
 									/>
 								</div>
 								<div className="img-box">
-									<img src="./images/profile2.jpg" alt="my profile" />
+									<img src="./images/profile.jpg" alt="my profile" />
 								</div>
 								<div className="img-box2">
 									<img
