@@ -55,7 +55,7 @@ const PortfolioList = [
     },
     {
         id: 7,
-        projectImage: "./images/dristi.jpeg",
+        projectImage: "/images/dristi.jpeg",
         projectTitle: "Drishti - Money Recognition",
         projectDescription: "Drishti is an open-source cross-platform mobile application project at Incubate Nepal that incorporates Machine Learning and Artificial Intelligence to help visually impaired people recognize different currency bills and perform daily cash transactions more effectively. We plan to expand Drishti to other applications like Short Text and Document.",
         projectTechnology: "Flutter,PyTorch,Tensorflow,Tflite (Tensorflow Lite),HTML,CSS,JavaScrip",
