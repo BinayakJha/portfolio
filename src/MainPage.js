@@ -99,17 +99,17 @@ function MainPage() {
 								<div className="img-box3">
 									<img
 										src={process.env.PUBLIC_URL + "/images/reactjs.png"}
-										alt="my profile image"
+										alt="reactjs-logo"
 										style={{ objectfit: "cover" }}
 									/>
 								</div>
 								<div className="img-box">
-									<img src="./images/profile2.jpg" alt="my profile image" />
+									<img src="./images/profile2.jpg" alt="my profile" />
 								</div>
 								<div className="img-box2">
 									<img
-										src="./images/python2.png"
-										alt="my profile image"
+										src="./images/django.png"
+										alt="django logo"
 										title="contributing to open-source project"
 									/>
 								</div>
