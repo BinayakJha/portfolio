@@ -6,7 +6,7 @@ const PortfolioList = [
         projectDescription: "I've been leading a project called Blood Donors Nepal. The primary goal of this project is to digitalize the blood donation system in Nepal. People who are in need of a specific blood group may not be able to find it in blood banks, so they post it on Facebook, where they have a slim chance of getting what they want. The situation is heartbreaking, and several people have lost their lives as a result of it. I began working on this project with the goal of lowering the number of deaths caused by a lack of blood at the appropriate time. It will create a direct connection between blood donors and those in need of blood. When people keep their blood requests, people with the same blood group or a matching blood group are notified. As a result, once the donor accepts the request, the patient will be able to contact the donor via the website or by sharing contact information. I will not monetize this website and will continue to work on it until it is fully automated. I'm also planning to contact blood banks across the country. \n \n I plan to collaborate with Hamro LifeBank, and Blood Donors Association Nepal, and get more users to come and register on this website. This app already has a prototype and I am working on publishing it.",
         projectTechnology: "ReactJS, JQuery, Tailwind CSS, MySQL, Django REST Framework, Ajax",
         projectLink: "https://bloodonor.pythonanywhere.com",
-        projectLinkShow: "www.bloodonor.pythonanywhere.com (Not Fully Functional)"
+        projectLinkShow: "Click Here (Not Fully Functional)"
     },
     {
         id: 2,

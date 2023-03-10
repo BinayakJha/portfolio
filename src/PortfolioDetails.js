@@ -51,7 +51,9 @@ function PortfolioDetails() {
                                            
                                         </div>
                                     </li>
-                                    <li>View Online - <span><a href="https://bloodonor.pythonanywhere.com" target="_blank">www.bloodonor.pythonanywhere.com</a></span></li>
+                                    <li>View Online - <span><a href={portfoliolist[id].projectLink} target="_blank" rel="noreferrer">
+                                        {portfoliolist[id].projectLinkShow}
+                                        </a></span></li>
                                 </ul>
                             </div>
                         </div>
