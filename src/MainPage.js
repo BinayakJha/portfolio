@@ -109,7 +109,7 @@ function MainPage() {
 								<div className="img-box2">
 									<img
 										src="./images/django.png"
-										alt="django logo"
+										alt="Djangoproject Logo Icon by Jagathish Sara"
 										title="contributing to open-source project"
 									/>
 								</div>
