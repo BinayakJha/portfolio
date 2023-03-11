@@ -22,8 +22,8 @@ const PortfolioList = [
         projectImage: "/images/lumify.png",
         projectTitle: "Lumify - Search Engine",
         projectDescription: "Lumify is a cutting-edge search engine designed to revolutionize the way you search the web. With its intuitive and user-friendly interface, Lumify delivers fast and accurate results to help you find what you're looking for quickly and efficiently. Say goodbye to cluttered search results and hello to a brighter and more illuminating digital search experience with Lumify.",
-        projectTechnology: "HTML5, CSS3, JavaScript, JQuery, Bootstrap, MySQL, Django, Ajax",
-        projectLink: "https://www.lumify.repl.co",
+        projectTechnology: "React JS, JQuery, Bootstrap, MySQL, Django, Ajax",
+        projectLink: "https://replit.com/@lumify/lumify",
         projectLinkShow: "www.lumify.repl.co",
     },
     {
