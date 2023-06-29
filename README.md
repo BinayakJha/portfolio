@@ -1,6 +1,7 @@
 # New portfolio - ReMake With React JS
 
-<img src="https://user-images.githubusercontent.com/69071769/224486268-08f1f6cb-0a12-43a7-890a-78b253cdc7ea.png" />
+
+<img src="https://github.com/BinayakJha/portfolio/assets/69071769/bdf4388e-e7e0-4363-976b-e09f2241c913" />
 
 # Commands to run the website in localhost
 
