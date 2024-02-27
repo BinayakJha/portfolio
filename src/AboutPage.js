@@ -73,7 +73,7 @@ function AboutPage() {
                     <div className="row">
                         <div className="about-img">
                             <div className="img-box">
-                                <img src="./images/profile3.jpg" alt="about pic" style={{'objectfit': 'cover'}}/>
+                                <img src="./images/portfolio_img.jpeg" alt="about pic" style={{'objectfit': 'cover'}}/>
                             </div>
                         </div>
                         <div className="about-text">
